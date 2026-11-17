@@ -58,7 +58,13 @@ Python, pandas, requests, SQLAlchemy, PyMySQL, MySQL, SQL, Git
    ```
    mysql -u etl_user -p -t weather_db < analysis.sql
    ```
+## Screenshots
 
+### Pipeline run
+![Pipeline run](screenshots/pipeline-run.png)
+
+### Daily summary (SQL)
+![Daily summary](screenshots/daily-summary.png)
 ## Sample result: day-over-day temperature change
 
 | reading_date | avg_temp (C) | change_from_prev_day |
